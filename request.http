@@ -1,0 +1,17 @@
+###
+POST http://localhost:8000/api/v1/factura_mercadolibre HTTP/1.1
+Content-Type: application/json
+
+{
+    "name":"Yaneth Florez",
+    "id_code": "82201822201",
+    "university": "Universidad de Manizales",
+    "tuition_number": "789456123",
+    "subjet": {
+        "credits_amount":"3",
+        "credit_cost": "$50.000"
+    }
+}
+
+###
+GET http://localhost:8000/api/v1/factura_mercadolibre HTTP/1.1
